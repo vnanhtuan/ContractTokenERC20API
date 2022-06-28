@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Private\\MyProjects\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API.csproj": {}
+  },
+  "projects": {
+    "D:\\Private\\MyProjects\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Private\\MyProjects\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API.csproj",
+        "projectName": "ContractTokenERC20API",
+        "projectPath": "D:\\Private\\MyProjects\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API.csproj",
+        "packagesPath": "C:\\Users\\vnatuan\\.nuget\\packages\\",
+        "outputPath": "D:\\Private\\MyProjects\\ContractTokenERC20API\\ContractTokenERC20API\\ContractTokenERC20API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vnatuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://cxp-deploy05.westeurope.cloudapp.azure.com:81/nuget/pre-release": {},
+          "http://cxp-deploy05.westeurope.cloudapp.azure.com:81/nuget/release": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Nethereum.JsonRpc.WebSocketClient": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Nethereum.RPC.Reactive": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
